@@ -2,7 +2,7 @@
   "name": "wedinvapp",
   "private": true,
   "version": "0.0.0",
-  "homepage": "http://buwwr.github.io/naomark-wedding-invitation",
+  "homepage": "https://buwwr.github.io/naomark-wedding-invitation/",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
