@@ -187,7 +187,7 @@ export default function Details() {
                         <div className="flex justify-center gap-5">
                             <div className="flex flex-col items-end">
                                 <span>Marlo Mercado</span>
-                                <span>Jan Rafols</span>
+                                <span>John Rafols</span>
                                 <span>Ferdinand Porlaje</span>
                                 <span>Edward Buco</span>
                                 <span>Dionisio D. Villanueva</span>
@@ -225,7 +225,7 @@ export default function Details() {
                                 <span>Grace Zaldua</span>
                                 <span>Lorenza Aguilar</span>
                                 <span>Estela Candava</span>
-                                <span>Elvie Ancheta</span>
+                                <span>Elvira Ancheta</span>
                                 <span>Dolores Del Rosario</span>
                                 <span>Lily Josue-Fajardo</span>
                                 <span>Jinky Siendo</span>
