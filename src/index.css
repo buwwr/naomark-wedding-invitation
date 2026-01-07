@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=IM+Fell+French+Canon:ital@0;1&family=Oranienbaum&family=Parisienne&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=IM+Fell+French+Canon:ital@0;1&family=Mea+Culpa&family=Oranienbaum&family=Parisienne&display=swap");
 @import "tailwindcss";
 @plugin "daisyui";
 
@@ -38,36 +38,15 @@
 }
 
 @theme {
-    --bg-top: url("/phone-bg-2-top.jpg");
-    --bg-mid: url("/phone-bg-mid.jpg");
-    --bg-bot: url("/phone-bg-bot.jpg");
-    --bg-for-all: url("/bg.jpg");
-    --bg-phone-bg: url("/phone-bg.jpg");
+    --bg-header: url("/hero-try.jpg");
     --font-oranienbaum: "Oranienbaum", serif;
-    --font-french: "IM Fell French Canon", serif;
-    --font-parisienne: "Parisienne", cursive;
     --font-abhaya: "Abhaya Libre", serif;
+    --font-meaculpa: "Mea Culpa", cursive;
 }
 
 @layer utilities {
-    .bg-img-top {
-        background-image: var(--bg-top);
-    }
-
-    .bg-img-mid {
-        background-image: var(--bg-mid);
-    }
-
-    .bg-img-bot {
-        background-image: var(--bg-bot);
-    }
-
-    .bg-img-for-all {
-        background-image: var(--bg-for-all);
-    }
-
-    .bg-img-phone {
-        background-image: var(--bg-phone-bg);
+    .bg-img-header {
+        background-image: var(--bg-header);
     }
 }
 

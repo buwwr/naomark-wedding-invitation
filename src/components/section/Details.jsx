@@ -2,20 +2,25 @@
 import pairLight from '../../assets/pair light.png'
 import pairDark from '../../assets/pair dark.png'
 import venue from '../../assets/venue-3.jpg'
-import flowerDivider from '../../assets/divider.png'
+import flowerDivider from '../../assets/divider-2.png'
+import flowerDivider3 from '../../assets/divider-3.png'
+import qrBpi from '../../assets/images/qr_bpi.jpg'
+import qrMaya from '../../assets/images/qr_maya.jpg'
+import qrRcbc from '../../assets/images/qr_rcbc.jpg'
+import qrUb from '../../assets/images/qr_ub.jpg'
 
 export default function Details() {
     return (
         <>
         
-        <section className="bg-img-mid bg-center bg-cover my-2 px-2 flex flex-col gap-2">
-            <h3 className="font-oranienbaum text-center text-rose-400 text-4xl uppercase font-bold">Finer Details</h3>
+        <section className="bg-[#f8eae1] px-2 flex flex-col gap-2">
+            <h3 className="font-oranienbaum text-center text-rose-400 text-6xl uppercase font-bold">Finer Details</h3>
             
-            <div className="font-abhaya flex flex-col text-center text-sm gap-2">
-                <h4 className="font-oranienbaum text-rose-400 font-bold text-lg">Dress Code</h4>
+            <div className="font-sans text-gray-900 flex flex-col text-center text-sm gap-2">
+                <h4 className="font-oranienbaum text-rose-400 font-bold text-2xl">Dress Code</h4>
                 <p>
                     Gentlemen: Suite and Tie / Long Sleeve and Slacks
-                    Ladies: Long Gown/ Dress
+                    <span className="block">Ladies: Long Gown/ Dress</span>
                 </p>
                 <div className="flex justify-center gap-4">
                     <div className="flex flex-col justify-center items-center">
@@ -45,14 +50,17 @@ export default function Details() {
                         </div>
                     </div>
                 </div>
-                <p>Please come in your formal attire. We encourage you to dress according to our motif.</p>
+                <p>
+                    Please come in your formal attire. 
+                    <span className="block">We encourage you to dress according to our motif.</span>
+                </p>
             </div>
         </section>
 
-        <section className="font-abhaya text-sm my-2 px-2 flex flex-col gap-2">
-            <img src={flowerDivider} className="w-50 self-center"/>
-            <div className="text-center my-2">
-                <h4 className="font-oranienbaum text-rose-400 font-bold text-lg">Gift Guide</h4>
+        <section className="bg-[#f8eae1] font-sans text-gray-900 text-sm flex flex-col justify-center gap-2 px-5 py-2">
+            <img src={flowerDivider} className="w-80 self-center py-2"/>
+            <div className="text-center">
+                <h4 className="font-oranienbaum text-rose-400 font-bold text-2xl">Gift Guide</h4>
                 <p>With all that we have, we've been truly blessed. Your presence and prayers are all that we request. But if you desire to give
                 nonetheless, a monetary gift is the one we humbly suggest.</p>
                 <div className="font-sans font-bold flex justify-center text-center gap-2">
@@ -60,13 +68,13 @@ export default function Details() {
                         <p>BPI</p>
                         <p>2209151173</p>
                         <p>NAOMI LAFUENTE</p>
-                        <img src="./qr_bpi.jpg" className="w-20" alt="BPI QR Code"/>
+                        <img src={qrBpi} className="w-20" alt="BPI QR Code"/>
                     </div>
                     <div className="flex flex-col justify-center items-center">
                         <p>RCBC</p>
                         <p>0000007591208481</p>
                         <p>NAOMI LAFUENTE</p>
-                        <img src="./qr_rcbc.jpg" className="w-20" alt="RCBC QR Code" />
+                        <img src={qrRcbc} className="w-20" alt="RCBC QR Code" />
                     </div>
                 </div>
                 <div className="font-sans font-bold flex justify-center text-center gap-2 mt-2">
@@ -74,24 +82,24 @@ export default function Details() {
                         <p>UNIONBANK</p>
                         <p>109660283268</p>
                         <p>NAOMI LAFUENTE</p>
-                        <img src="./qr_ub.jpg" className="w-20" alt="UB QR Code" />
+                        <img src={qrUb} className="w-20" alt="UB QR Code" />
                     </div>
                     <div className="flex flex-col justify-center items-center">
                         <p>MAYA</p>
                         <p>09489167721</p>
                         <p>MARK ANGELO ONG</p>
-                        <img src="./qr_maya.jpg" className="w-20" alt="Maya QR Code" />
+                        <img src={qrMaya} className="w-20" alt="Maya QR Code" />
                     </div>
                 </div>
             </div>
         </section>
 
-        <section className="bg-img-mid bg-center bg-cover font-abhaya text-sm my-2 px-2 flex flex-col gap-2">
-            <img src={flowerDivider} className="w-50 self-center"/>
-            <div className="text-center my-2">
-                <h4 className="font-oranienbaum text-rose-400 font-bold text-lg">Wedding Program</h4>
+        <section className="bg-[#f8eae1] font-abhaya text-gray-900 text-sm py-2 px-2 flex flex-col gap-2">
+            <img src={flowerDivider} className="w-80 self-center py-2"/>            
+            <div className="text-center">
+                <h4 className="font-oranienbaum text-rose-400 font-bold text-2xl">Wedding Program</h4>
                 <ul>
-                    <li className="flex justify-center gap-5">
+                    <li className="flex justify-center gap-5 text-lg mt-2">
                         <div className="flex flex-col items-end">
                             <span>10:30 AM</span>
                             <span>11:00 AM</span>
@@ -112,22 +120,24 @@ export default function Details() {
             </div>
         </section>
         
-        <section className="font-abhaya text-sm my-2 px-2 flex flex-col gap-2">
-            <img src={flowerDivider} className="w-50 self-center"/>
-            <div className="flex flex-col justify-center items-center text-center">
-                <h4 className="font-oranienbaum text-rose-400 font-bold text-lg">Venue</h4>
+        <section className="bg-[#f8eae1] font-sans text-base p-2 flex flex-col gap-2">
+            <img src={flowerDivider} className="w-80 self-center py-2"/>            
+            <div className="flex flex-col justify-center items-center text-center gap-2">
+                <h4 className="font-oranienbaum text-rose-400 font-bold text-2xl">Venue</h4>
                 <img src={venue} className="rounded" alt="Venue The Pace" />
-                <p>The Pace | Marilao, Bulacan</p>
-                <p>Ilang Ilang, Sta. Rosa 2, Marilao, Philippines</p>
-                <a href="https://maps.app.goo.gl/sJiLweUQ5wetNoKY7" className="btn btn-primary font-sans">Open in Google Maps</a>
+                <p className="text-gray-900">
+                    <span className="font-bold">The Pace - Marilao, Bulacan</span>
+                    <span className="block">Ilang Ilang, Sta. Rosa 2, Marilao, Philippines</span>
+                </p>
+                <a href="https://maps.app.goo.gl/sJiLweUQ5wetNoKY7" className="btn btn-primary font-sans uppercase">Open in Google Maps</a>
             </div>
         </section>
         
-        <section className="font-abhaya text-sm my-2 px-2 flex flex-col gap-2">
-            <img src={flowerDivider} className="w-50 self-center"/>
-            <div className="text-center my-2">
-                <h4 className="font-oranienbaum text-rose-400 font-bold text-lg">Entourage</h4>
-                <ul className="text-center flex flex-col gap-5 text-sm">
+        <section className="bg-[#f8eae1] text-lg p-2 flex flex-col gap-2">
+            <img src={flowerDivider} className="w-80 self-center py-2"/>                 
+            <div className="text-center text-gray-900">
+                <h4 className="font-oranienbaum text-rose-400 font-bold text-2xl">Entourage</h4>
+                <ul className="pt-2 text-center flex flex-col gap-5 text-sm">
                     <li className="flex flex-col">
                         <span className="font-bold uppercase text-rose-400">Parents of the Bride</span>
                         <span>Roberto Lafuente & Lita Lafuente</span>
@@ -146,47 +156,60 @@ export default function Details() {
                         <span>Christian Ong</span>
                     </li>
                     
-                    <li className="flex flex-col justify-center">
+                    <img src={flowerDivider3} className="w-60 self-center"/>   
+
+                    <li >
                         <span className="font-bold uppercase text-rose-400">Principal Sponsors</span>
-                        <span>Marlo Mercado & Lilibeth Mercado</span>
-                        <span>Johanna Rafols & Jan Rafols</span>
-                        <span>Ferdinand Porlaje & Susana Porlaje</span>
-                        <span>Edward Buco & Adelaida Buco</span>
-                        <span>Dionisio D. Villanueva & Maria Teresa A.Villanueva</span>
-                        <span>Efren Sandico & Arlene Sandico</span>
-                        <span>Lelita Tadifa & Rodrigo Tadifa</span>
-                        <span>Connie Sicat & Ricky Sicat</span>
-                        <span>Metosalem Sarmiento & Charyl Sarmiento</span>
+                        <div className="flex justify-center gap-5">
+                            <div className="flex flex-col items-end">
+                                <span>Marlo Mercado</span>
+                                <span>Jan Rafols</span>
+                                <span>Ferdinand Porlaje</span>
+                                <span>Edward Buco</span>
+                                <span>Dionisio D. Villanueva</span>
+                                <span>Efren Sandico</span>
+                                <span>Rodrigo Tadifa</span>
+                                <span>Ricky Sicat</span>
+                                <span>Metosalem Sarmiento</span>
+                                <span>Allan Cruz</span>
+                                <span>Romeo Sorillo</span>
+                                <span>Nimrod Montaño</span>
+                                <span>Nimrod Mogar</span>
+                                <span>Hope Salarda</span>
+                                <span>Agustin Jabay</span>
+                                <span>Nadje Mediavilla</span>
+                                <span>Hernani Siendo</span>
+                                <span>Elmer Quitco</span>
+                                <span>Anthony Cabute</span>
+                                <span>Alfred Mapas</span>
+                            </div>
+                            <div className="flex flex-col items-start">
+                                <span>Lilibeth Mercado</span>
+                                <span>Johanna Rafols</span>
+                                <span>Susana Porlaje</span>
+                                <span>Adelaida Buco</span>
+                                <span>Maria Teresa A.Villanueva</span>
+                                <span>Arlene Sandico</span>
+                                <span>Lelita Tadifa</span>
+                                <span>Connie Sicat</span>
+                                <span>Charyl Sarmiento</span>
+                                <span>Noemi Tanquerido</span>
+                                <span>Marilyn Mañalac</span>
+                                <span>TeresitaTacderan</span>
+                                <span>Teresita Lockwood</span>
+                                <span>Adoracion Bautista</span>
+                                <span>Grace Zaldua</span>
+                                <span>Lorenza Aguilar</span>
+                                <span>Estela Candava</span>
+                                <span>Elvie Ancheta</span>
+                                <span>Dolores Del Rosario</span>
+                                <span>Lily Josue-Fajardo</span>
+                                <span>Jinky Siendo</span>
+                            </div>
+                        </div>            
                     </li>
-                    <li className="flex justify-center gap-5">
-                        <div className="flex flex-col items-end">
-                            <span>Allan Cruz</span>
-                            <span>Romeo Sorillo</span>
-                            <span>Nimrod Montaño</span>
-                            <span>Nimrod Mogar</span>
-                            <span>Hope Salarda</span>
-                            <span>Agustin Jabay</span>
-                            <span>Nadje Mediavilla</span>
-                            <span>Hernani Siendo</span>
-                            <span>Elmer Quitco</span>
-                            <span>Anthony Cabute</span>
-                            <span>Alfred Mapas</span>
-                        </div>
-                        <div className="flex flex-col items-start">
-                            <span>Noemi Tanquerido</span>
-                            <span>Marilyn Mañalac</span>
-                            <span>TeresitaTacderan</span>
-                            <span>Teresita Lockwood</span>
-                            <span>Adoracion Bautista</span>
-                            <span>Grace Zaldua</span>
-                            <span>Lorenza Aguilar</span>
-                            <span>Estela Candava</span>
-                            <span>Elvie Ancheta</span>
-                            <span>Dolores Del Rosario</span>
-                            <span>Lily Josue-Fajardo</span>
-                            <span>Jinky Siendo</span>
-                        </div>
-                    </li>
+
+                    <img src={flowerDivider3} className="w-60 self-center"/>      
                     
                     <li className="flex flex-col">
                         <span className="font-bold uppercase text-rose-400">Flower Girl</span>

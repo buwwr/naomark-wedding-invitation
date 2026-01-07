@@ -11,13 +11,19 @@ function App() {
   return (
     <>
       <Header />
-        <TimeLeft />
-        <Rsvp />
-        <Carousel />
-        <Details />
-        <Reminders />
+      <TimeLeft />
+      <Rsvp />
+      <Carousel />
+      <Details />
+      <Reminders />
     </>
   )
 }
 
 export default App
+
+// <TimeLeft />
+//       <Rsvp />
+//       <Carousel />
+//       <Details />
+//       <Reminders />
