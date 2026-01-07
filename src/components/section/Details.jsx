@@ -160,7 +160,7 @@ export default function Details() {
                         <div className="flex justify-center gap-5">
                             <div className="flex flex-col items-end">
                                 <span className="font-bold uppercase text-rose-400">Bridesmaids</span>
-                                <span>Sharwina Gonzales- Lafuente</span>
+                                <span>Sharwina Gonzales-Lafuente</span>
                                 <span>Michelle Recaña</span>
                                 <span>Ruth Hernandez</span>
                                 <span>Kris Anne Myles Ong</span>
