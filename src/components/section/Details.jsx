@@ -19,7 +19,7 @@ export default function Details() {
             <div className="font-sans text-gray-900 flex flex-col text-center text-sm gap-2">
                 <h4 className="font-oranienbaum text-rose-400 font-bold text-2xl">Dress Code</h4>
                 <p>
-                    Gentlemen: Suite and Tie / Long Sleeve and Slacks
+                    Gentlemen: Suit and Tie / Long Sleeve and Slacks
                     <span className="block">Ladies: Long Gown/ Dress</span>
                 </p>
                 <div className="flex justify-center gap-4">
@@ -155,6 +155,30 @@ export default function Details() {
                         <span className="font-bold uppercase text-rose-400">Best Man</span>
                         <span>Christian Ong</span>
                     </li>
+
+                    <li >
+                        <div className="flex justify-center gap-5">
+                            <div className="flex flex-col items-end">
+                                <span className="font-bold uppercase text-rose-400">Bridesmaids</span>
+                                <span>Sharwina Gonzales- Lafuente</span>
+                                <span>Michelle Recaña</span>
+                                <span>Ruth Hernandez</span>
+                                <span>Kris Anne Myles Ong</span>
+                                <span>Princess Ong</span>
+                                <span>Juliana Marie Buco</span>
+                            </div>
+                            <div className="flex flex-col items-start">
+                                <span className="font-bold uppercase text-rose-400">Groomsmen</span>
+                                <span>James Emmanuelle Lafuente</span>
+                                <span>Glenn Michael Marzo</span>
+                                <span>Mark Anthony Algoso</span>
+                                <span>Vermidio Pollisco Jr</span>
+                                <span>Ishmael Shem Lafuente </span>
+                                <span>Christian Dave Buco</span>
+                            </div>
+                            
+                        </div>            
+                    </li>
                     
                     <img src={flowerDivider3} className="w-60 self-center"/>   
 
@@ -235,14 +259,19 @@ export default function Details() {
                     </li>
                     <li className="flex flex-col">
                         <span className="font-bold uppercase text-rose-400">Candle</span>
-                        <span>Vermidio Pollisco</span>
+                        <span>Vermidio Pollisco Jr</span>
                         <span>Glennis Lacson Galvez</span>
                     </li>
                     <li className="flex flex-col">
                         <span className="font-bold uppercase text-rose-400">Cord</span>
-                        <span>Ishmael Shem Lafuente </span>
+                        <span>Ishmael Shem Lafuente</span>
                         <span>Ayissa Estanda Ferreras</span>
-                    </li>                
+                    </li>
+                    <li className="flex flex-col">
+                        <span className="font-bold uppercase text-rose-400">Wine Toasting</span>
+                        <span>James Emmanuelle Lafuente </span>
+                        <span>Sharwina Gonzales-Lafuente</span>
+                    </li>           
                 </ul>
             </div>
             
