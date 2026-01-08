@@ -39,9 +39,12 @@
 
 @theme {
     --bg-header: url("/hero-try.jpg");
+
     --font-oranienbaum: "Oranienbaum", serif;
     --font-abhaya: "Abhaya Libre", serif;
     --font-meaculpa: "Mea Culpa", cursive;
+
+    --breakpoint-xs: 400px;
 }
 
 @layer utilities {

@@ -2,7 +2,7 @@ import footerImg from '../../assets/footer.png'
 
 export default function Reminders() {
     return (
-        <section className="bg-[#f8eae1] font-sans text-gray-900 flex flex-col text-center text-base gap-2 p-4">
+        <section className="max-w-sm mx-auto  font-sans text-gray-900 flex flex-col text-center text-base gap-2 p-4">
             <h3 className="font-oranienbaum text-center text-rose-400 text-5xl uppercase font-bold">Gentle Reminders</h3>
             <div className="flex flex-col gap-5">
                 <p className="text-center rounded-2xl bg-rose-400 glass p-4 text-white">

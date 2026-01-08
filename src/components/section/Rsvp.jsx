@@ -50,7 +50,7 @@ export default function Rsvp() {
     }
 
     return (
-        <section className="bg-[#f8eae1] flex flex-col text-center items-center justify-center gap-2 px-2 py-5 font-sans uppercase tracking-tight leading-none text-gray-900 font-semibold text-base">
+        <section className="max-w-sm mx-auto flex flex-col text-center items-center justify-center gap-2 px-2 py-5 font-sans uppercase tracking-tight leading-none text-gray-900 font-semibold text-base">
             <div>
                 We kindly ask for your response by
                 <p className="uppercase text-rose-400 text-2xl font-bold font-oranienbaum">

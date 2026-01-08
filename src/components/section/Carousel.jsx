@@ -31,7 +31,7 @@ export default function Carousel() {
     }, []) 
     
     return (
-        <section className="bg-[#f8eae1]">
+        <section className="max-w-sm mx-auto ">
             <div ref={carouselRef} className="carousel mx-2 aspect-video rounded-md">
                 {images.map((img, index) => (
                     <div key={index} className="carousel-item relative w-full">

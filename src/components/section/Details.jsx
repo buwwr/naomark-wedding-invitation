@@ -13,7 +13,7 @@ export default function Details() {
     return (
         <>
         
-        <section className="bg-[#f8eae1] px-2 flex flex-col gap-2">
+        <section className="max-w-sm mx-auto  px-2 flex flex-col gap-2">
             <h3 className="font-oranienbaum text-center text-rose-400 text-6xl uppercase font-bold">Finer Details</h3>
             
             <div className="font-sans text-gray-900 flex flex-col text-center text-sm gap-2">
@@ -57,7 +57,7 @@ export default function Details() {
             </div>
         </section>
 
-        <section className="bg-[#f8eae1] font-sans text-gray-900 text-sm flex flex-col justify-center gap-2 px-5 py-2">
+        <section className="max-w-sm mx-auto  font-sans text-gray-900 text-sm flex flex-col justify-center gap-2 px-5 py-2">
             <img src={flowerDivider} className="w-80 self-center py-2"/>
             <div className="text-center">
                 <h4 className="font-oranienbaum text-rose-400 font-bold text-2xl">Gift Guide</h4>
@@ -94,7 +94,7 @@ export default function Details() {
             </div>
         </section>
 
-        <section className="bg-[#f8eae1] font-abhaya text-gray-900 text-sm py-2 px-2 flex flex-col gap-2">
+        <section className="max-w-sm mx-auto  font-abhaya text-gray-900 text-sm py-2 px-2 flex flex-col gap-2">
             <img src={flowerDivider} className="w-80 self-center py-2"/>            
             <div className="text-center">
                 <h4 className="font-oranienbaum text-rose-400 font-bold text-2xl">Wedding Program</h4>
@@ -120,7 +120,7 @@ export default function Details() {
             </div>
         </section>
         
-        <section className="bg-[#f8eae1] font-sans text-base p-2 flex flex-col gap-2">
+        <section className="max-w-sm mx-auto  font-sans text-base p-2 flex flex-col gap-2">
             <img src={flowerDivider} className="w-80 self-center py-2"/>            
             <div className="flex flex-col justify-center items-center text-center gap-2">
                 <h4 className="font-oranienbaum text-rose-400 font-bold text-2xl">Venue</h4>
@@ -133,7 +133,7 @@ export default function Details() {
             </div>
         </section>
         
-        <section className="bg-[#f8eae1] text-lg p-2 flex flex-col gap-2">
+        <section className="max-w-sm mx-auto  text-lg p-2 flex flex-col gap-2">
             <img src={flowerDivider} className="w-80 self-center py-2"/>                 
             <div className="text-center text-gray-900">
                 <h4 className="font-oranienbaum text-rose-400 font-bold text-2xl">Entourage</h4>

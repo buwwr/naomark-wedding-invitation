@@ -2,11 +2,11 @@ export default function Header() {
      return (
 
       <>
-      <header className="bg-img-header bg-cover bg-center">
+      <header className="bg-img-header bg-cover bg-center max-w-sm mx-auto box-border">
         <div className="flex justify-center pb-2">
           <div className="flex flex-col justify-center items-center text-center gap-2.5">
-              <div className="w-50 pt-20">
-                <p className="font-sans uppercase tracking-tight leading-none text-gray-900 font-semibold text-sm">
+              <div className="w-40 xs:w-50 pt-30">
+                <p className="font-sans uppercase tracking-tight leading-none text-gray-900 font-semibold text-xs xs:text-sm">
                   With love in their hearts and family by their side 
                 </p>
               </div>
@@ -26,7 +26,7 @@ export default function Header() {
               </h1>
 
               <div className="w-50">
-                <p className="font-sans uppercase tracking-tight leading-none text-gray-900 font-semibold text-sm">
+                <p className="font-sans uppercase tracking-tight leading-none text-gray-900 font-semibold text-xs xs:text-sm">
                   Request the honor of your presence at their wedding 
                 </p>
               </div>
