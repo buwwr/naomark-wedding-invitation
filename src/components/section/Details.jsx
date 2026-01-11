@@ -220,7 +220,7 @@ export default function Details() {
                                 <span>Noemi Tanquerido</span>
                                 <span>Marilyn Mañalac</span>
                                 <span>TeresitaTacderan</span>
-                                <span>Teresita Lockwood</span>
+                                <span>Aurora Lockwood</span>
                                 <span>Adoracion Bautista</span>
                                 <span>Grace Zaldua</span>
                                 <span>Lorenza Aguilar</span>
@@ -246,7 +246,7 @@ export default function Details() {
                     </li>
                     <li className="flex flex-col">
                         <span className="font-bold uppercase text-rose-400">Coin Bearer</span>
-                        <span>Prince Jayce Gonzalez</span>
+                        <span>Prince Jayce Gonzales</span>
                     </li>
                     <li className="flex flex-col">
                         <span className="font-bold uppercase text-rose-400">Ring Bearer</span>
