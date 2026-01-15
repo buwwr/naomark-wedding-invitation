@@ -10,11 +10,10 @@ export default function Rsvp() {
     const [guestCount, setGuestCount] = useState(1)
     const [submitted, setSubmitted] = useState(false)
 
-    const currentDate = new Date().toLocaleDateString()
-    const deadlineDate = "1/15/2026"
+    const isAfterDeadline = new Date() > new Date("1/15/2026")
 
     const btnClass = submitted ? "btn btn-disabled hidden" : "btn btn-primary" 
-    const rsvpBtnClass = currentDate === deadlineDate ? "btn btn-disabled" : "btn btn-primary" 
+    const rsvpBtnClass = isAfterDeadline ? "btn btn-disabled" : "btn btn-primary" 
 
     const handleGuest1Change = (value) => {
         setForm({ ...form, guest1: value })
