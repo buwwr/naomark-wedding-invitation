@@ -10,7 +10,7 @@ export default function Rsvp() {
     const [guestCount, setGuestCount] = useState(1)
     const [submitted, setSubmitted] = useState(false)
 
-    const isAfterDeadline = new Date() > new Date("1/15/2026")
+    const isAfterDeadline = new Date() > new Date("1/16/2026")
 
     const btnClass = submitted ? "btn btn-disabled hidden" : "btn btn-primary" 
     const rsvpBtnClass = isAfterDeadline ? "btn btn-disabled" : "btn btn-primary" 
