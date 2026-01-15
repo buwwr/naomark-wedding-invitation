@@ -10,8 +10,12 @@ export default function Rsvp() {
     const [guestCount, setGuestCount] = useState(1)
     const [submitted, setSubmitted] = useState(false)
 
+    const currentDate = new Date().toLocaleDateString()
+    const deadlineDate = "1/15/2026"
+
     const btnClass = submitted ? "btn btn-disabled hidden" : "btn btn-primary" 
-    
+    const rsvpBtnClass = currentDate === deadlineDate ? "btn btn-disabled" : "btn btn-primary" 
+
     const handleGuest1Change = (value) => {
         setForm({ ...form, guest1: value })
     }
@@ -63,7 +67,7 @@ export default function Rsvp() {
             <p>Please let us know whether you will be able to attend by responding to the RSVP.</p>
             
             <form onSubmit={handleSubmit} >
-                <label htmlFor="my_modal_6" className="btn btn-primary font-sans">RSVP Now</label>
+                <label htmlFor="my_modal_6" className={`${rsvpBtnClass} font-sans`}>RSVP Now</label>
                 <input type="checkbox" id="my_modal_6" className="modal-toggle" />
                 <div className="modal" role="dialog">
                     <div className="modal-box flex flex-col gap-2">
